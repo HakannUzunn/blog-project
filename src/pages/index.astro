@@ -1,0 +1,31 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Header />
+
+<main>
+  <h1>Welcome to the Gaming Blog!</h1>
+
+  <section>
+    <h2>Latest Game Reviews</h2>
+    <ul>
+      <li><a href="/game-reviews/game-review-1">Game Review 1: Title of the Game</a></li>
+      <li><a href="/game-reviews/game-review-2">Game Review 2: Title of Another Game</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Latest Gaming News</h2>
+    <ul>
+      <li><a href="/gaming-news/news-article-1">Exciting News in the Gaming World</a></li>
+    </ul>
+  </section>
+</main>
+
+<Footer />
+
+<style>
+	@import '../../static/css/styles.css';
+  </style>
