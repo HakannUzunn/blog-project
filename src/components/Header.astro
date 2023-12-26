@@ -1,17 +1,59 @@
 ---
+
 ---
 
 <header>
-	<h1>Gaming Blog</h1>
-	<nav>
-	  <ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/game-reviews">Game Reviews</a></li>
-		<li><a href="/gaming-news">Gaming News</a></li>
-	  </ul>
-	</nav>
-  </header>
+	<a href="/">
+		<img src="/static/images/logo.png" alt="Gaming Blog Logo" id="logo" />
+	</a>
 
-  <style>
-	@import '../../static/css/styles.css';
-  </style>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/game-review-list">Game Review List</a></li>
+			<li><a href="/game-news-list">Gaming News</a></li>
+		</ul>
+	</nav>
+</header>
+
+<style>
+	@import "../../static/css/styles.css";
+
+	header {
+		background-color: #333;
+		color: #fff;
+		padding: 1rem;
+		text-align: center;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	nav ul {
+		list-style: none;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	nav li {
+		margin: 0 1rem;
+	}
+
+	nav a {
+		text-decoration: none;
+		color: #fff;
+		font-weight: bold;
+	}
+
+	img#logo {
+		
+		max-height: 50px;
+		margin-right: 10px; /* Adjust margin or padding as needed */
+	}
+
+	
+	#logo:hover {
+		transform: scale(1.1);
+	}
+</style>

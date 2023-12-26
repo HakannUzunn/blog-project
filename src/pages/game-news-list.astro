@@ -1,0 +1,40 @@
+---
+title: "Game News List"
+date: "2023-03-15"
+import Header from '../components/Header.astro';
+---
+<Header />
+# Game News List
+
+<ul>
+  <li><a href="/gaming-news/news-article-1">Game Review 1: Title of the Game</a></li>
+  <li><a href="/gaming-news/news-article-2">Game Review 2: Title of Another Game</a></li>
+  <!-- Add more game reviews as needed -->
+</ul>
+
+<style>
+    @import '../../static/css/styles.css';
+
+    body{
+        background-color: rgb(255, 254, 174);
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+    li {
+      margin-bottom: 1rem;
+    }
+  
+    a {
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+    }
+  
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
