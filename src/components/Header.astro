@@ -1,5 +1,5 @@
 ---
-
+import Social from "../components/Social.astro"
 ---
 
 <header>
@@ -14,20 +14,15 @@
 			<li><a href="/game-news-list">Gaming News</a></li>
 		</ul>
 	</nav>
+
+	<Social />
+	
 </header>
 
 <style>
 	@import "../../static/css/styles.css";
 
-	header {
-		background-color: #333;
-		color: #fff;
-		padding: 1rem;
-		text-align: center;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
+	
 
 	nav ul {
 		list-style: none;
@@ -47,13 +42,15 @@
 	}
 
 	img#logo {
-		
+		transition: transform 0.3s ease;
 		max-height: 50px;
-		margin-right: 10px; /* Adjust margin or padding as needed */
+		margin-right: 10px; 
+		border: none;
 	}
 
 	
 	#logo:hover {
 		transform: scale(1.1);
+		filter: drop-shadow(0 0 10px rgba(3, 255, 129, 0.952));
 	}
 </style>

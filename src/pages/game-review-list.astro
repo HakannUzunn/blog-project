@@ -2,9 +2,10 @@
 title: "Game Reviews List"
 date: "2023-03-15"
 import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 ---
 <Header />
-# Game Reviews List
+<h1>Game Reviews List</h1> 
 
 <ul>
   <li><a href="/game-reviews/game-review-1">Game Review 1: Title of the Game</a></li>
@@ -12,13 +13,13 @@ import Header from '../components/Header.astro';
   <!-- Add more game reviews as needed -->
 </ul>
 
+<Footer />
+
 <style>
     @import '../../static/css/styles.css';
   
-
-    body{
-        background-color: rgb(255, 254, 174);
-    }
+    
+  
     ul {
       list-style: none;
       padding: 0;
@@ -30,7 +31,7 @@ import Header from '../components/Header.astro';
   
     a {
       text-decoration: none;
-      color: #007BFF;
+      color: #000000;
       font-weight: bold;
     }
   

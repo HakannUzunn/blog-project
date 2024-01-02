@@ -22,3 +22,7 @@ Discuss the potential impact on the gaming community.
 ## Conclusion
 
 Wrap up the article with your thoughts on the news.
+
+<style>
+    @import "../../static/css/styles.css";
+</style>

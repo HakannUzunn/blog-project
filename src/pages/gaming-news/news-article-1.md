@@ -17,12 +17,18 @@ Now that the GTA 6 trailer is officially out in the wild, Rockstar has revealed 
 
 ## Details
 
-Provide additional details and insights into the news.
-
-## Impact
-
-Discuss the potential impact on the gaming community.
+GTA 6 is taking us back to Vice City. While the original game was set in 1986, this new 2025 release is set to take place in what appears to be a modern day setting. Rockstar revealed we'll be heading to the state of Leonida which is "home to the neon-soaked streets of Vice City and beyond". Set to be the "biggest, most immersive evolution of Grand Theft Auto yet", Vice City appears to be a part of a bigger map that will form GTA 6. 
 
 ## Conclusion
 
-Wrap up the article with your thoughts on the news.
+All the fans of the GTA series are looking forward to day its released. Because the developers try their best to entertain gamers and bring the best thing that ever made to that day always.
+
+<style>
+   @import "../../static/css/styles.css";
+
+  p{
+   max-width:50%;
+   margin-bottom:50px;
+  }
+   
+</style>
